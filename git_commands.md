@@ -1,18 +1,12 @@
 Хорошие статьи:
 
-https://habr.com/ru/articles/174467/
-
-https://habr.com/ru/companies/skillbox/articles/442260/
-
-https://habr.com/ru/companies/yandex_praktikum/articles/768492/
-
-https://habr.com/ru/companies/yandex_praktikum/articles/728302/
-
-https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
-
-https://habr.com/ru/articles/150001/
-
-https://old.calculate-linux.org/main/ru/git
+* https://habr.com/ru/articles/174467/
+* https://habr.com/ru/companies/skillbox/articles/442260/
+* https://habr.com/ru/companies/yandex_praktikum/articles/768492/
+* https://habr.com/ru/companies/yandex_praktikum/articles/728302/
+* https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
+* https://habr.com/ru/articles/150001/
+* https://old.calculate-linux.org/main/ru/git
 
 
 
