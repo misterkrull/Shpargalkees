@@ -1,0 +1,13 @@
+pwd
+cd
+ls, ls -a
+touch
+mkdir
+cp
+mv
+cat
+rm
+rmdir
+rm -r
+rm -rf
+cd ~/[Tab]
