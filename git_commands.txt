@@ -1,4 +1,4 @@
-Хорошие статьи:
+﻿Хорошие статьи:
 https://habr.com/ru/articles/174467/
 https://habr.com/ru/companies/skillbox/articles/442260/
 https://habr.com/ru/companies/yandex_praktikum/articles/768492/
@@ -70,7 +70,7 @@ git revert <commit hash>	Отмена изменений коммита
 					(подробней о сравнении - в моей истории в LearnGPT
 					топик Computer Science/Введение)
 				Дописывает в коммент, что произошёл реверт
-git commit amend		Исправить коммент к последнему коммиту
+git commit --amend		Исправить коммент к последнему коммиту
 					(работает только для последнего, остальные уже не исправить;
 					ещё условие: работает, если ничего не проиндексировано)
 
