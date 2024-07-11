@@ -1,0 +1,5 @@
+Ещё команды гита, которые я проходил и которые нужно поизучать
+ git branch -D krull_fixes 
+git branch -a 
+
+git rebase --onto main luzin_fixes krull_fixes
