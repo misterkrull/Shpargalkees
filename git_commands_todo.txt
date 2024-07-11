@@ -1,5 +1,8 @@
-Ещё команды гита, которые я проходил и которые нужно поизучать
- git branch -D krull_fixes 
-git branch -a 
+Ещё команды гита, которые я проходил и которые нужно поизучать:
+
+git branch -D krull_fixes 
+	удаляет ветвь, типа комбо из -d (--delete) и -f (--force)
+	подробнее читать тут: file:///D:/Program%20Files/Git/mingw64/share/doc/git-doc/git-branch.html
+	надо разобраться, почему Лёша мне -D посоветовал, в чём тут прикол
 
 git rebase --onto main luzin_fixes krull_fixes
