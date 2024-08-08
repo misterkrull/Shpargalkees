@@ -1,0 +1,15 @@
+Про создание собственных команд в гите можно подробно почитать, к пример, тут:
+https://habr.com/ru/articles/664364/
+
+Замечание. В вышеуказанной статье были одинарные кавычки, но у меня git почему-то 
+	на это выдал ошибку. В двойных кавычках схавал.
+
+
+
+
+СПИСОК МОИХ КОММАНД:
+
+git config --global --add alias.logg "!git log --oneline --graph --all"
+git config --global --add alias.slog "!git status && git log --oneline --graph --all"
+git config --global --add alias.stog "!git status && git log --oneline --graph --all"
+git config --global --add alias.st "!git status"
