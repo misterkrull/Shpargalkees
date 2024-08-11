@@ -1,4 +1,4 @@
-Про создание собственных команд в гите можно подробно почитать, к пример, тут:
+﻿Про создание собственных команд в Гите можно подробно почитать, к примеру, тут:
 https://habr.com/ru/articles/664364/
 
 Замечание. В вышеуказанной статье были одинарные кавычки, но у меня git почему-то 
@@ -10,6 +10,12 @@ https://habr.com/ru/articles/664364/
 СПИСОК МОИХ КОММАНД:
 
 git config --global --add alias.logg "!git log --oneline --graph --all"
-git config --global --add alias.slog "!git status && git log --oneline --graph --all"
 git config --global --add alias.stog "!git status && git log --oneline --graph --all"
 git config --global --add alias.st "!git status"
+
+
+СПИСОК МОИХ mergetools:
+kdiff3
+meld
+winmerge
+tortoisemerge
