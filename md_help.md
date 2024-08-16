@@ -226,10 +226,24 @@ _превращается в:_
 Блок кода с пометкой mermaid будет интерпретирован особым образом!
 
 	```Mermaid
-		A-->B
+ 	    graph TB;
+		A-->B;
+  		A---C;
+		C-.->D;
 	```
 
 ```mermaid
-	graph TD;
+	graph TB;
 		A-->B;
+  		A---C;
+    		C-.->D;
 ```
+
+Как видим, можем тыкать по кнопочкам и двигать диаграмму на все 4 стороны, приближать, удалять и вернуть к исходному состоянию.
+
+В тексте mermaid-кода ключевые слова `TB`, `BT`, `RL`, `LR` означают 4 направления, в сторону которых будут направлены стрелочки.
+
+Очень подробный гайд по Mermaid на Хабре:  
+https://habr.com/ru/articles/652867/  
+Неплохой онлайн-интерпретатор с моментальной отрисовкой:  
+https://mermaid-js.github.io/mermaid-live-editor/edit/#pako:eNo1jbEKwzAQQ38laE5-wEOhJf2CdrzlyF0aQ20Hcx5KyL_nSogmSU-gDVMRRcCn8rp075Fy57oPw-2BHklr4ijOtz8g2KJJCcGt6MztawTKu0_bKmz6lGilIlht2oObldcvT1c-N2Nkf0tnuR9pACse
