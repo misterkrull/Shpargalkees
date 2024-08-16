@@ -11,3 +11,4 @@ rmdir
 rm -r
 rm -rf
 cd ~/[Tab]
+echo
