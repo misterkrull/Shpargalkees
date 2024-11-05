@@ -6,6 +6,10 @@ https://habr.com/ru/companies/yandex_praktikum/articles/728302/
 https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
 https://habr.com/ru/articles/150001/
 https://old.calculate-linux.org/main/ru/git
+https://webhamster.ru/mytetrashare/index/mtb0/1465119902140pozfhh1
+https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/
+
+Игра по Гиту: https://learngitbranching.js.org/?locale=ru_RU
 
 
 
