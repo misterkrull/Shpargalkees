@@ -1,15 +1,52 @@
-﻿Хорошие статьи:
-https://habr.com/ru/articles/174467/
-https://habr.com/ru/companies/skillbox/articles/442260/
-https://habr.com/ru/companies/yandex_praktikum/articles/768492/
-https://habr.com/ru/companies/yandex_praktikum/articles/728302/
-https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
-https://habr.com/ru/articles/150001/
-https://old.calculate-linux.org/main/ru/git
-https://webhamster.ru/mytetrashare/index/mtb0/1465119902140pozfhh1
-https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/
+﻿ = = = Разные статьи, ссылки = = = 
 
 Игра по Гиту: https://learngitbranching.js.org/?locale=ru_RU
+
+https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb Git: курс
+https://www.youtube.com/playlist?list=PLDyvV36pndZEB7kWWocU4QSn-G78LoaEE Git: разное
+https://rutube.ru/channel/38939557/playlists/  (оба раздела: "Git: курс" и "Git: разное")
+	Тотсамый супервидеокурс по Гиту!
+
+https://habr.com/ru/companies/yandex_praktikum/articles/768492/
+15 ресурсов по Git. Что почитать/посмотреть?
+	Много интересных ресурсов.
+
+https://pikabu.ru/story/kak_nachat_ponimat_git_10255588#comments
+Как начать понимать Git⁠⁠
+	Есть несколько годных советных. Рекомендуется к перечитыванию
+
+https://ohshitgit.com/
+https://pikabu.ru/story/git_shit_10252570 - русская версия
+	Без комментариев
+
+https://habr.com/ru/companies/yandex_praktikum/articles/728302/
+Работаем с Git: трудовые будни
+	Есть про модели ветвления (о чём нет в Шпаргалке)!
+	Также есть про merge vs rebase, про squash, про pull requests на ГитХабе
+	В общем, полезно будет когда-нибудь перечитать!
+
+https://habr.com/ru/articles/174467/
+Ежедневная работа с Git
+	Лонгрид про работу с Гитом с нуля. Есть кое-какие добавочные сведения, 
+	  но в целом не очень интересно. Но можно будет как-нибудь перечитать.
+
+https://webhamster.ru/mytetrashare/index/mtb0/1465119902140pozfhh1
+Git: что делать в состоянии detached head
+		Вообще на этом сайте много полезных статей про Гит
+
+https://habr.com/ru/articles/161009/
+Git Rebase: руководство по использованию
+	Офигенная статья про ребейз!
+
+https://habr.com/ru/articles/150001/
+Обзор инструментов для визуального сравнения и разрешения конфликтов слияния
+	Тут про KDiff3, DiffMerge, WinMerge, Meld, Diffuse, TKDiff, SmartSynchronize, 
+	BeyondCompare, Araxis Merge
+
+https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/
+How git cherry-pick and revert use 3-way merge
+Как git cherry-pick и revert использует 3-стороннее слияние
+	Англоязычная машинно-переводная статья, но весьма хорошая!
 
 
 
@@ -1134,6 +1171,8 @@ https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/
 
  = = = Ребейзинг = = =
 
+Классная статья по теме: https://habr.com/ru/articles/161009/
+
 git rebase <branch>	 	ребейзинг текущей ветки на целевую <branch>
 git rebase main			классический случай подобновления текущей ветки от main'а
 git rebase 				вроде бы то же самое, что и git rebase origin/<текущая ветка>
@@ -1410,6 +1449,10 @@ git fetch origin <branchname>:<branchname> не совсем адекватно 
 	Связать локалку с веткой слежения можно с помощью команды
 		git push -u origin <branchname>				(-u = --set-upstream, если чё)
 			(подробнее про это см. в главе про пушинг)
+
+Полезная статья по теме:
+https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
+Команда git fetch — чем отличается от git pull
 
 
 
