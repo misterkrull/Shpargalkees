@@ -7,11 +7,29 @@ https://habr.com/ru/articles/664364/
 
 
 
-СПИСОК МОИХ КОММАНД:
+СПИСОК МОИХ КОМАНД:
 
 git config --global --add alias.logg "!git log --oneline --graph --all"
 git config --global --add alias.stog "!git status && git log --oneline --graph --all"
 git config --global --add alias.st "!git status"
+git config --global --add alias.sw "!git switch"
+git config --global --add alias.ch "!git checkout"
+
+
+Только почему-то Гит не обрабатывает нормально эти команды
+Он что-то пытается угадать, в результате чего нормально не записывает алиасы через гитконфиг
+Приходится лезть в .gitconfig и вручную его править
+
+Вот кусок моего текущего .gitconfig:
+
+[alias]
+	logg = !git log --oneline --graph --all
+	stog = !git status && git log --oneline --graph --all
+	st = !git status
+	sw = !git switch
+	ch = !git checkout
+	
+	
 
 
 СПИСОК МОИХ mergetools:
